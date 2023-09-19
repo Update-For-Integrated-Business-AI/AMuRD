@@ -20,7 +20,7 @@ This paper has been submitted for publication in *Some Journal*.
 > Brief description of what this paper is about (2-3 sentences). Include a
 > figure as well with the main result of your paper.
 
-![](manuscript/figures/hawaii-trend.png)
+![](images/model.png)
 
 *Caption for the example figure with the main results.*
 
