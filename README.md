@@ -32,12 +32,25 @@ Explore our Instruct LLama system through our live demo:
 [**Demo for our Instruct LLama**](http://18.188.209.98:5052/)
 
 
+## Examples
+
+| Example | Input                                | Class                 | Brand        | Weight    | Number of units | Size of units  | Price   | T.Price | Pack   | Unit  |
+| ------- | ------------------------------------ | ---------------------- | -------------| --------- | ---------------- | --------------- | ------- | ------- | ------ | ----- |
+| Example 1| `40.99 20.99 2 chunks sunshine`    | Tins, Jars & Packets   | sunshine     | No Weight | 2                | No Size of units| 20.99   | 40.99   | علبة   | No Unit |
+| Example 2| `برسيل اتوماتيك جل روز 2.6`      | Cleaning Supplies      | برسيل       | 2.6ل      | 1                | No Size of units| No Price| No T.Price | عبوة | ل     |
+| Example 3| `regina Pasta penne 400g`           | Rice, Pasta & Pulses   | regina       | 400g      | 1                | No Size of units| No Price| No T.Price | كيس   | g     |
+| Example 4| `10.00 400g Penne Pasta ElMaleka`   | Rice, Pasta & Pulses   | ElMaleka     | 400g      | 1                | No Size of units| 10      | 10      | كيس   | g     |
+
+
+## Getting the code
+
 To get started with the code and utilize the AMuRD dataset for your research or projects, you can clone this repository:
 
 ```bash
 git clone https://github.com/yourusername/AMuRD.git
 ```
-## Getting the code
+
+
 
 
 ## Dependencies
