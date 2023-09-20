@@ -5,7 +5,7 @@ Abdelrahman Abdallah,
 Mahmoud Abdalla,
 Mohamed Elkasaby,
 Yasser Elbendary, 
-Adam Jatowt,
+Adam Jatowt
 
 
 
