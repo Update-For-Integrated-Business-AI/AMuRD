@@ -1,4 +1,4 @@
-# AMuRD: Annotated Multilingual Receipts Dataset for Cross-lingual Key Information Extraction and Classification 
+# <a href="https://arxiv.org/abs/2309.09800">AMuRD</a>: Annotated Multilingual Receipts Dataset for Cross-lingual Key Information Extraction and Classification 
 
 by
 Abdelrahman Abdallah,
