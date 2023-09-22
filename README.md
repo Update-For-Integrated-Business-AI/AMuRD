@@ -68,8 +68,11 @@ python convert.py path/to/our/model
 
 # quantize the model to 4-bits (using q4_0 method)
 ./quantize ./path/to/our/model/ggml-model-f32.bin ./path/to/our/model/ggml-model-q4_0.bin q4_0
+```
 
-# use ggml-model-q4_0.bin in your code
+To use the ```ggml-model-q4_0.bin``` on your own desktop, laptop, or low-resource AWS instance, you can follow these general steps:
+```
+
 pip install llama-cpp-python
 
 import argparse
