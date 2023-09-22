@@ -44,8 +44,10 @@ Explore our Instruct LLama system through our live demo:
 
 ## Getting the code
 
+
 To get started with the code and utilize the AMuRD dataset for your research or projects, you can clone this repository:
 
+### To use our original model on GPU
 ```bash
 git clone https://github.com/yourusername/AMuRD.git
 pip install transformers
@@ -57,7 +59,18 @@ To perform key information extraction on item receipts using our models, you can
 
 [abdoelsayed/llama-7b-v1-Receipt-Key-Extraction](https://huggingface.co/abdoelsayed/llama-7b-v1-Receipt-Key-Extraction)
 
+### To use our original model on the CPU
+```
+git clone https://github.com/ggerganov/llama.cpp
+cd llama.cpp
+# convert the 7B model to ggml FP16 format
+python convert.py path/to/our/model
 
+# quantize the model to 4-bits (using q4_0 method)
+./quantize ./path/to/our/model/ggml-model-f32.bin ./path/to/our/model/ggml-model-q4_0.bin q4_0
+
+# use ggml-model-q4_0.bin in your code
+```
 ## Citation 
 Please consider to cite our paper:
 ```
