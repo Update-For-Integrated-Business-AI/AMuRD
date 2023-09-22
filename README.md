@@ -48,16 +48,15 @@ To get started with the code and utilize the AMuRD dataset for your research or 
 
 ```bash
 git clone https://github.com/yourusername/AMuRD.git
+pip install transformers
+python test.py
 ```
+To perform key information extraction on item receipts using our models, you can utilize the following pre-trained models:
+```
+abdoelsayed/llama-7b-v2-Receipt-Key-Extraction
 
-
-
-
-## Dependencies
-
-## Reproducing the results
-
-
+abdoelsayed/llama-7b-v1-Receipt-Key-Extraction
+```
 
 ## Citation 
 Please consider to cite our paper:
