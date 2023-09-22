@@ -53,9 +53,9 @@ python test.py
 ```
 To perform key information extraction on item receipts using our models, you can utilize the following pre-trained models:
 ```
-abdoelsayed/llama-7b-v2-Receipt-Key-Extraction
+[abdoelsayed/llama-7b-v2-Receipt-Key-Extraction](https://huggingface.co/abdoelsayed/llama-7b-v2-Receipt-Key-Extraction)
 
-abdoelsayed/llama-7b-v1-Receipt-Key-Extraction
+[abdoelsayed/llama-7b-v1-Receipt-Key-Extraction](https://huggingface.co/abdoelsayed/llama-7b-v1-Receipt-Key-Extraction)
 ```
 
 ## Citation 
