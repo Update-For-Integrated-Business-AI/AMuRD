@@ -70,6 +70,27 @@ python convert.py path/to/our/model
 ./quantize ./path/to/our/model/ggml-model-f32.bin ./path/to/our/model/ggml-model-q4_0.bin q4_0
 
 # use ggml-model-q4_0.bin in your code
+pip install llama-cpp-python
+
+import argparse
+
+parser = argparse.ArgumentParser()
+parser.add_argument("-m", "--model", type=str, default="./models/brand_arabic_models/test/ggml-model-q4_0.bin")
+args = parser.parse_args()
+
+llm = Llama(model_path=args.model)
+
+output = llm(
+    # SeaStar Smoked herrings fillet, 250 gm
+    """Below is an instruction that describes a task, paired with an input that provides further context. 
+Write a response that appropriately completes the request.\n\n
+### Instruction:\n Extract the Brand Name from the following Sentence \n\n### Input:\n   SeaStar Smoked herrings fillet, 250 gm  \n\n### Response: """,
+    max_tokens=128,
+    stop=["Q:", "\n"],
+    echo=True,
+)
+
+print(output)
 ```
 ## Citation 
 Please consider to cite our paper:
