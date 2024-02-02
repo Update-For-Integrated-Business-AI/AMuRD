@@ -1,11 +1,5 @@
 # <a href="https://arxiv.org/abs/2309.09800">AMuRD</a>: Annotated Multilingual Receipts Dataset for Cross-lingual Key Information Extraction and Classification 
 
-by
-Abdelrahman Abdallah,
-Mahmoud Abdalla,
-Mohamed Elkasaby,
-Yasser Elbendary, 
-Adam Jatowt
 
 
 
@@ -112,8 +106,4 @@ Please consider to cite our paper:
 
 
 Note: The AMuRD Dataset can only be used for non-commercial research purposes. 
-For researchers who want to use the AMuRD database, please first fill
-in this [Application Form](Application_Form/Application_Form_for_AMuRD.doc) 
-and send it via email to us ([m.abdallah@discoapp.ai](mailto:m.abdallah@discoapp.ai), [Yelbendary@discoapp.ai](mailto:Yelbendary@discoapp.ai), [abdoelsayed2016@gmail.com](mailto:abdoelsayed2016@gmail.com)). 
-
 
