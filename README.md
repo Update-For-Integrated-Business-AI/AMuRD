@@ -4,10 +4,6 @@
 
 
 
-![](images/model.png)
-
-
-
 
 ## Abstract
 
@@ -88,18 +84,6 @@ Write a response that appropriately completes the request.\n\n
 )
 
 print(output)
-```
-## Citation 
-Please consider to cite our paper:
-```
-@misc{abdallah2023amurd,
-    title={AMuRD: Annotated Multilingual Receipts Dataset for Cross-lingual Key Information Extraction and Classification},
-    author={Abdelrahman Abdallah and Mahmoud Abdalla and Mohamed Elkasaby and Yasser Elbendary and Adam Jatowt},
-    year={2023},
-    eprint={2309.09800},
-    archivePrefix={arXiv},
-    primaryClass={cs.CL}
-}
 ```
 
 ## License
