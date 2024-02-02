@@ -7,11 +7,7 @@
 
 ## Abstract
 
-> Key information extraction involves recognizing and extracting text from scanned receipts, 
-enabling retrieval of essential content, and organizing it into structured documents. 
-This paper presents a novel multilingual dataset for receipt extraction, addressing key challenges in information extraction and item classification. 
-The dataset comprises $47,720$ samples, including annotations for item names, attributes like (price, brand, etc.), and classification into $44$ product categories. 
-We introduce the InstructLLaMA approach, achieving an F1 score of $0.76$ and an accuracy of $0.68$ for key information extraction and item classification.
+> The extraction of key information from receipts is a complex task that involves the recognition and extraction of text from scanned receipts. This process is crucial as it enables the retrieval of essential content from these receipts and organizes it into structured documents for easy access and analysis. In this paper, we present AMuRD, a novel multilingual human-annotated dataset specifically designed for receipt extraction. This dataset addresses the key challenges in information extraction and item classification, two critical aspects of data analysis in the retail industry.  The AMuRD dataset is extensive, comprising $47,720$ samples. Each sample in the dataset includes annotations for item names and attributes such as price, brand, and more. This detailed annotation facilitates a comprehensive understanding of each item on the receipt.  Furthermore, the dataset provides classification into $44$ distinct product categories. This classification feature allows for a more organized and efficient analysis of the items, enhancing the usability of the dataset for various applications. In our study, we evaluated various language model architectures, notably fine-tuning LLaMA models on the AMuRD dataset. This approach yielded exceptional results, with an F1 score of 97.43% and accuracy of 94.99% in information extraction and classification, and an even higher F1 score of 98.51% and accuracy of 97.06% observed in specific tasks
 
 
 ## Demo for our Instruct LLama
