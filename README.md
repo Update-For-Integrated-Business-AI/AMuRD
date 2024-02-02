@@ -1,4 +1,4 @@
-# <a href="https://arxiv.org/abs/2309.09800">AMuRD</a>: Annotated Multilingual Receipts Dataset for Cross-lingual Key Information Extraction and Classification 
+# AMuRD: Annotated Multilingual Receipts Dataset for  Key Information Extraction and Classification 
 
 
 
