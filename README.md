@@ -15,7 +15,7 @@
 
 Explore our Instruct LLama system through our live demo:
 
-[**Demo for our Instruct LLama**](http://18.222.14.209:5003/)
+[**Demo for our Instruct LLama**](http://3.145.70.14:5003/)
 
 
 ## Examples
