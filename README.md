@@ -35,7 +35,7 @@ To get started with the code and utilize the AMuRD dataset for your research or 
 
 ### To use our original model on GPU
 ```bash
-git clone https://github.com/yourusername/AMuRD.git
+git clone https://github.com/Update-For-Integrated-Business-AI/AMuRD.git
 pip install transformers
 python test.py
 ```
